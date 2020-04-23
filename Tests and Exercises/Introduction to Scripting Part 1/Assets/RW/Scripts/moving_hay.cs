@@ -8,8 +8,8 @@ public class moving_hay : MonoBehaviour
 
     public GameObject limitRight;
     public GameObject limitLeft;
-    public int offset = 15000;
-    public GameObject hayPrefab;
+    public Vector3 offset = new Vector3(0, -28, 39);
+    public GameObject HayBaleParent;
     public GameObject hay_machine;
     void Start()
     {
@@ -27,7 +27,7 @@ public class moving_hay : MonoBehaviour
         else if (horizontalInput > 0 && transform.position.x  < (limitRight.transform.position.x)) transform.Translate(transform.right * 5 * Time.deltaTime);
 
         if (Input.GetKeyDown(KeyCode.Space)) {
-            Instantiate(hayPrefab, hay_machine.transform.position, Quaternion.identity);
+            Instantiate(HayBaleParent, hay_machine.transform.position + offset, Quaternion.identity);
         }
     }
 
