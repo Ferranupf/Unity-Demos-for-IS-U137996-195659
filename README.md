@@ -14,6 +14,5 @@ A very basic "Cacth-the-ball" minigame where you can use the arrow keys to move 
 
 2.The second Version is the one to Submit, it's done following the guide provided here https://www.raywenderlich.com/4180875-introduction-to-unity-scripting-part-1#toc-anchor-008 and currently it's all functioning exept the part where you change the HayMachine's Color.
 
-Thats All,
-
+Thats All, thank you for reading it
 Ferran Enguix
