@@ -11,7 +11,7 @@ public class Move : MonoBehaviour
 
     void Start()
     {
-        movementSpeed = new Vector3(0,0,20);
+       // movementSpeed = new Vector3(0,0,20);
     }
 
     // Update is called once per frame
