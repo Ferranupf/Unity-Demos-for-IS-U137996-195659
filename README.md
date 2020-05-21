@@ -4,24 +4,34 @@
 Inside this repo you have currently:
 
  
--> P0 "My First Game"
-A very basic "Cacth-the-ball" minigame where you can use the arrow keys to move the ball into the chest, done only to mess around with Unity.
+-> Final project on root
+
+
+
+----------------------------------------------------------------------------------------------
 
 .\Test and Exercises
+------------------------------------------------------
+->PR1
 
+-Completed
+--------------------------------------------------------
 -> PR2 Scripting
-
 PR2 on unity and .exe compiled containing:
-
+-------------------------------------------------------
 -All the sheep and hay related stuff
 -Hit Effects
 -Sounds
 -UI
 -Title Scene working
-
+-------------------------------------------------------
 -> P3
-- working on it currently
-
+Completed
+--> Got some issues getting Node.js and the webcam working
+-------------------------------------------------------
+-> P4
+Completed with multiple camera setup, rendered texture on wall,
+attempted global illumination with light probe but baking was taking too long 
+-------------------------------------------------------
 Thats All, 
-thank you for taking the time to read all this text-wall
 Ferran Enguix
