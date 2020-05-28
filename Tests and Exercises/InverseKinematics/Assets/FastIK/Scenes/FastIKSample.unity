@@ -417,6 +417,30 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 260375591}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &267301649 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3891929767898333804, guid: cec86ffd452a29f4a9ddd1fc1bf8a8f1,
+    type: 3}
+  m_PrefabInstance: {fileID: 1816645264}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &267301651
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 267301649}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03ca45bb53dc94f478358a1b6475653d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ChainLength: 2
+  Target: {fileID: 2077366090}
+  Pole: {fileID: 743369172}
+  Iterations: 10
+  Delta: 0.001
+  SnapBackStrength: 1
 --- !u!1 &289674010 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8259873853185929607, guid: cec86ffd452a29f4a9ddd1fc1bf8a8f1,
@@ -1971,6 +1995,30 @@ MonoBehaviour:
   ChainLength: 2
   Target: {fileID: 0}
   Pole: {fileID: 0}
+  Iterations: 10
+  Delta: 0.001
+  SnapBackStrength: 1
+--- !u!1 &1118183763 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -1941502728355384335, guid: cec86ffd452a29f4a9ddd1fc1bf8a8f1,
+    type: 3}
+  m_PrefabInstance: {fileID: 1816645264}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1118183765
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1118183763}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03ca45bb53dc94f478358a1b6475653d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ChainLength: 2
+  Target: {fileID: 669336475}
+  Pole: {fileID: 942875987}
   Iterations: 10
   Delta: 0.001
   SnapBackStrength: 1
